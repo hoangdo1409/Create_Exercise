@@ -1,0 +1,228 @@
+Câu 1. Phát biểu nào sau đây là phù hợp nhất về khái niệm bit?
+
+A. Chính chữ số 1.
+
+B. Một số có 1 chữ số.
+
+C. Đơn vị đo khối lượng kiến thức.
+
+D. Đơn vị đo lượng thông tin.
+
+Hướng dẫn giải
+Đáp án đúng là: D
+
+Đơn vị đo lượng thông tin cơ bản là bit. Ngoài ra còn có các đơn vị đo thông tin khác như: B, KB, MB, GB, TB, PB.
+
+Câu 2. Mã hoá thông tin có mục đích gì?
+
+A. Để thay đổi lượng thông tin.
+
+B. Để chuyển thông tin về dạng câu lệnh của ngôn ngữ máy.
+
+C. Làm cho thông tin phù hợp với dữ liệu trong máy.
+
+D. Cả A, B, C đều đúng.
+
+Hướng dẫn giải
+Đáp án đúng là: D
+
+Muốn máy tính hiểu được những thông tin đưa vào máy con người cần phải mã hóa thông tin dưới dạng các câu lệnh của ngôn ngữ máy làm cho thông tin phù hợp với dữ liệu trong máy và thay đổi lượng thông tin đó.
+
+Câu 3. Đơn vị đo lượng thông tin cơ sở là:
+
+A. Bit.
+
+B. GHz.
+
+C. GB.
+
+D. Byte.
+
+Hướng dẫn giải
+Đáp án đúng là: A
+
+Đơn vị đo lượng thông tin cơ bản là bit. Ngoài ra còn có các đơn vị đo thông tin khác như: B, KB, MB, GB, TB, PB.
+
+Câu 4. Bản chất quá trình mã hóa thông tin?
+
+A. Chuyển dãy hệ nhị phân về hệ đếm khác.
+
+B. Đưa thông tin vào máy tính.
+
+C. Chuyển thông tin về bit nhị phân.
+
+D. Nhận dạng thông tin.
+
+Hướng dẫn giải
+Đáp án đúng là: B
+
+Mã hoá thông tin là quá trình đưa thông tin vào máy tính để lưu trữ, xử lí được thông tin, thông tin phải biến đổi thành dãy bit.
+
+Câu 5. Chọn phát biểu đúng trong các câu sau:
+
+A. Dữ liệu là thông tin.
+
+B. RAM là bộ nhớ ngoài.
+
+C. Đĩa mềm là bộ nhớ trong.
+
+D. Một byte có 8 bits.
+
+Hướng dẫn giải
+Đáp án đúng là: D
+
+- Bộ nhớ trong gồm RAM và ROM → loại B.
+
+- Bộ nhớ ngoài gồm: đĩa cứng, đĩa mềm, đĩa CD, thiết bị nhớ flash… → loại C.
+
+- Dữ liệu là thông tin được mã hóa trong máy tính → loại A.
+
+Câu 6. Thông tin khi đưa vào máy tính, chúng đều được biến đổi thành dạng chung đó là:
+
+A. Văn bản.
+
+B. Âm thanh.
+
+C. Hình ảnh.
+
+D. Dãy bit.
+
+Hướng dẫn giải
+Đáp án đúng là: D
+
+Thông tin khi đưa vào máy tính, chúng đều được biến đổi thành dạng chung là các dãy bit để máy tính có thể nhận biết và xử lí được. Máy tính truy cập tới bộ nhớ theo từng nhóm bit.
+
+Câu 7. Quá trình xử lí thông tin gồm các bước nào?
+
+A. Tiếp nhận dữ liệu, xử lí dữ liệu, đưa ra kết quả.
+
+B. Tiếp nhận thông tin, xử lí thông tin, đưa ra kết quả.
+
+C. Tiếp nhận thông tin, chuyển thành dữ liệu, tính toán dữ liệu, đưa ra kết quả.
+
+D. Cả ba đáp án đều sai.
+
+Hướng dẫn giải
+Đáp án đúng là: A
+
+Trong tin học, dữ liệu là thông tin được đưa vào máy tính để máy tính có thể nhận biết và xử lí được. Trong máy tính, xử lí thông tin chính là xử lí dữ liệu. Quá trình xử lí thông tin gồm ba bước: tiếp nhận dữ liệu, xử lí dữ liệu, đưa ra kết quả. 
+
+Câu 8. Thông tin là gì?
+
+A. Các văn bản và số liệu.
+
+B. Tất cả những gì mang lại cho chúng ta hiểu biết.
+
+C. Văn bản, hình ảnh, âm thanh.
+
+D. Hình ảnh, âm thanh.
+
+Hướng dẫn giải
+Đáp án đúng là: B
+
+Thông tin là tất cả những gì mang lại cho chúng ta hiểu biết, thông tin gắn với quá trình nhận thức. 
+
+Câu 9. Chọn câu đúng trong các câu sau:
+
+A. 1MB = 1024KB.
+
+B. 1PB = 1024 GB.
+
+C. 1ZB = 1024PB.
+
+D. 1Bit = 1024B.
+
+Hướng dẫn giải
+Đáp án đúng là: A
+
+1MB = 210KB =1024KB
+
+Câu 10. Phát biểu nào sau đây là sai khi nói về quan hệ giữa thông tin và dữ liệu?
+
+A. Dữ liệu là thông tin đã được đưa vào máy tính.
+
+B. Thông tin là ý nghĩa của dữ liệu.
+
+C. Thông tin và dữ liệu có tính độc lập tương đối.
+
+D. Thông tin không có tính toàn vẹn.
+
+Hướng dẫn giải
+Đáp án đúng là: D
+
+Thông tin có tính toàn vẹn. Dữ liệu không đầy đủ có thể làm thông tin sai lệch, thậm chí không xác định được.
+
+Câu 11. 1 byte có thể biểu diễn ở bao nhiêu trạng thái khác nhau:
+
+A. 65536.
+
+B. 256.
+
+C. 255.
+
+D. 8.
+
+Hướng dẫn giải
+Đáp án đúng là: B
+
+1 byte = 8 bit. Vậy 1 byte có thể biểu diễn các trạng thái khác nhau là 28 = 256 trạng thái.
+
+Câu 12. Chọn câu đúng trong các câu dưới đây?
+
+A. Dữ liệu là thông tin đã được đưa vào trong máy tính.
+
+B. CPU là vùng nhớ đóng vai trò trung gian giữa bộ nhớ và các thanh ghi.
+
+C. Đĩa cứng là bộ nhớ trong.
+
+D. 8 bytes = 1 bit.
+
+Hướng dẫn giải
+Đáp án đúng là: A
+
+Tất cả các thông tin từ bên ngoài đưa vào trong máy tính đều được gọi là dữ liệu.
+
+Câu 13. Hãy chọn phương án ghép đúng: Hệ đếm nhị phân được sử dụng phổ biến trong tin học vì…. 
+
+A. Dễ biến đổi thành dạng biểu diễn trong hệ đếm 10.
+
+B. Là số nguyên tố chẵn duy nhất.
+
+C. Một mạch điện có hai trạng thái (có điện/không có điện) có thể dùng để thể hiện tương ứng "1", "0".
+
+D. Dễ dùng.
+
+Hướng dẫn giải
+Đáp án đúng là: C
+
+Hệ nhị phân được chọn bởi vì nó khá dễ dàng khi phân biệt sự hiện diện hay vắng mặt của 1 tín hiệu điện tại 1 thời điểm nào đó. Điều này càng trở nên đáng giá khi máy tính phải xử lý hàng tỷ tỷ các tín hiệu này mỗi giây.
+
+Câu 14. Chọn phát biểu sai trong các câu sau:
+
+A. Máy tính xử lí đồng thời nhiều byte chứ không xử lí từng byte.
+
+B. Các bộ phận của máy tính nối với nhau bởi các dây dẫn gọi là các tuyến.
+
+C. Máy tính xử lí đồng thời một dãy bit chứ không xử lí từng bit.
+
+D. Modem là một thiết bị hỗ trợ cho cả việc đưa thông tin vào và lấy thông tin ra.
+
+Hướng dẫn giải
+Đáp án đúng là: A
+
+Trong quá trình xử lí dữ liệu, máy tính chỉ xử lí từng byte.
+
+Câu 15. Hãy chọn phương án ghép đúng: Mã hóa thông tin thành dữ liệu là quá trình…
+
+A. Chuyển thông tin bên ngoài thành thông tin bên trong máy tính.
+
+B. Chuyển thông tin về dạng mà máy tính có thể xử lí được.
+
+C. Chuyển thông tin về dạng mã ASCII.  
+
+D. Thay đổi hình thức biểu diễn để người khác không hiểu được.
+
+Hướng dẫn giải
+Đáp án đúng là: B
+
+Để máy tính có thể xử lí được thông tin thì cần phải có một quá trình, đó là mã hóa thông tin thành dữ liệu, mà dữ liệu này phải là loại dữ liệu máy tính có thể xử lí được.
