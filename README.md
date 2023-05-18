@@ -3,7 +3,7 @@ Create Exercise là một chương trình Python thực hiện trích xuất cá
 ## Overview
 Create Exercise có đầu vào là một file chứa các câu hỏi (pdf) và đầu ra là một file txt chứa các câu hỏi có nội dung tương tự.
 Chương trình đọc toàn bộ nội dung của file câu hỏi pdf và xử lý lại format câu hỏi rồi đưa vào file txt để lưu lại.
-Sau đó, sử dụng thư viện OpenAi và dựa trên ví dụ Parse unstructured data để từ câu hỏi có các đáp án sẽ tạo ra 5 câu hỏi với các đáp án có nội dung tương tự.
+Sau đó, sử dụng thư viện openai và dựa trên ví dụ Parse unstructured data, đưa vào request lần lượt từng câu hỏi và đáp án để từ đó sẽ tạo ra lần lượt 5 câu hỏi cùng các đáp án có nội dung tương tự.
 * Các cài đặt được sử dụng trong API request:
 ```python
   model="text-davinci-003",
