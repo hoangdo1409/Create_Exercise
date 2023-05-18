@@ -1,4 +1,4 @@
-# Create_Exercise
+# Create Exercise
 Create Exercise là một chương trình Python thực hiện trích xuất các câu hỏi từ một đề thi và sử dụng thư viện openai tạo ra các câu hỏi với nội dung tương tự.
 ## Overview
 Create Exercise có đầu vào là một file chứa các câu hỏi (pdf) và đầu ra là một file txt chứa các câu hỏi có nội dung tương tự.
