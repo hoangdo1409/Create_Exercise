@@ -53,9 +53,9 @@ Dự án này đang sử dụng thư viện Openai nên bạn cần có API Key 
 git clone https://github.com/hoangdo1409/Create_Exercise.git
 ```
 
-2. Cần tải xuống các thư viện cần thiết được khai báo trong file requirement.txt với lệnh sau:
+2. Cần tải xuống các thư viện cần thiết được khai báo trong file requirements.txt với lệnh sau:
   ```sh
-  pip install -r requirement.txt
+  pip install -r requirements.txt
   ```
   
 3. Đăng ký và lấy mã API Key tại đây:  [API Keys](https://platform.openai.com/account/api-keys/) 
