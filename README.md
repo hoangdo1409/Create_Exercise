@@ -1,39 +1,88 @@
-# Create Exercise
-Create Exercise là một chương trình Python thực hiện trích xuất các câu hỏi từ một đề thi và sử dụng thư viện openai tạo ra các câu hỏi với nội dung tương tự.
-## Overview
-Create Exercise có đầu vào là một file chứa các câu hỏi (pdf) và đầu ra là một file txt chứa các câu hỏi có nội dung tương tự.
+<br />
+<div align="center">
+  <h1 align="center">Create Exercise</h1>
+
+  <p align="center">
+    Dự án tạo các câu hỏi mới từ một câu hỏi mẫu  
+   </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Mục lục</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">Về Dự Án</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Bắt đầu</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+## About the project
+Create Exercise là một dự án Python thực hiện trích xuất các câu hỏi từ một file đề thi và tạo ra các câu hỏi với nội dung gần với câu hỏi mẫu.
 Chương trình đọc toàn bộ nội dung của file câu hỏi pdf và xử lý lại format câu hỏi rồi đưa vào file txt để lưu lại.
 Sau đó, sử dụng thư viện openai và dựa trên ví dụ Parse unstructured data, đưa vào request lần lượt từng câu hỏi và đáp án để từ đó sẽ tạo ra lần lượt 5 câu hỏi cùng các đáp án có nội dung tương tự.
-* Các cài đặt được sử dụng trong API request:
-```python
-  model="text-davinci-003",
-  prompt=prompt,
-  temperature=0.5,
-  max_tokens=3000,
-  top_p=1,
-```
-Giải thích:
-```python
-model="text-davinci-003"
-```
-* text-davinci-003 thuộc model GPT-3.5, nó giúp thực hiện yêu cầu với ngôn ngữ tự nhiên dễ dàng hơn, chất lượng tốt hơn, đầu ra có kích thước lớn hơn.
-```python
-prompt=prompt
-```
-* prompt: chứa nội dung là yêu cầu mà bạn muốn thực hiện
-```python
-  temperature=0.5
-```
-* temperature: kiểm soát tính ngẫu nhiên mà kết quả đưa ra. Với giá trị 0 thì kết quả tạo ra sẽ xác định và lặp đi lặp lại. Với nhiều lần kiểm tra thì ở đây đặt giá trị là 0.5 để với 1 câu hỏi có thể tạo ra nhiều câu hỏi khác có nội dung tương tự nhưng phong phú và có sự khác biệt lẫn nhau nhiều hơn.
-```python
-  max_tokens=3000
-```
-* max_tokens: chiều dài tối đa của các ký tự nhập vào bao gồm cả câu hỏi đưa vào, phần prompt và kết quả trả về. Số ký tự này bị giới hạn với các tài khoản (dùng free hay trả phí). Ở đây với 3000 ký tự nên cho phép đưa vào 1 câu hỏi có 4 đáp án, prompt và kết quả trả về là 5 câu hỏi, đáp án tương tự.
-```python
-  top_p=1
-```
-* Kiểm soát tính đa dạng, 1 là lấy tất cả các tùy chọn được xem xét.
 
-* Sử dụng một vài đề thi trắc nghiệm để làm đầu vào, với mỗi một câu hỏi 4 đáp án sẽ được nạp lần lượt vào request và nhận lại 5 câu hỏi khác ban đầu nhưng mức độ kiến thức và nội dung câu hỏi vẫn sát với câu hỏi đưa vào.
+### Built With
+Phần mềm được xây dựng bởi ngôn ngữ Python
 
+## Getting Started
+Để tạo và chạy một bản sao dự án, hãy làm theo các bước như sau.
+
+### Prerequisites
+Trước tiên, bạn cần có Python để có thể chạy được dự án. Phiên bản python hiện tại đang được dùng trong dự ấn này là 3.7.9
+* Python
+  * Bạn có thể tải về phiên bản 3.7.9 ở đây: [Python 3.7.9](https://www.python.org/downloads/release/python-379/)
+  * Hoặc có thể tải phiên bản mới nhất của Python tại: [Newest Python](https://www.python.org/downloads/)
+
+### Installation
+Dự án này đang sử dụng thư viện Openai nên bạn cần có API Key xác thực được cấp bởi OpenAI
+1. Clone repo
+```sh
+git clone https://github.com/hoangdo1409/Create_Exercise.git
+```
+
+2. Cần tải xuống các thư viện cần thiết được khai báo trong file requirement.txt với lệnh sau:
+  ```sh
+  	pip install -r requirement.txt
+  ```
+  
+3. Đăng ký và lấy mã API Key tại đây:  [API Keys](https://platform.openai.com/account/api-keys/) 
+
+4. Tạo 1 file .env với các giá trị:
+```python
+API_KEY="api_key"
+MAX_TOKENS=1600
+ENGINE="davinci"
+PDF_PATH='exam_history.pdf'
+```
+
+<!-- USAGE EXAMPLES -->
+## Usage
+Dự án này trước tiên cần đọc dữ liệu câu hỏi từ 1 file pdf, vậy nên bạn cần thêm 1 file pdf muốn sử dụng làm cơ sở ddeer tạo thêm các câu hỏi khác vào dự án. Hiện tại, đang có 1 file mặc định là exam_history.pdf được đặt sẵn để có thể chạy thử nghiệm. Hoặc bạn có thể thêm 1 file pdf khác và thay đổi giá trị biến ```PDF_PATH``` trong file <i>.env</i>.
+
+* Để đọc toàn bộ nội dung câu hỏi từ file pdf, chạy lệnh sau:
+  ```sh
+  py createTxt.py
+  ```
+  Toàn bộ nội dung của file pdf sẽ được đọc vào file <i> question.txt </i>.
+  
+* Sau đó, để tạo thêm các câu hỏi từ các câu hỏi có sẵn, ta thực hiện chạy hàm main với lệnh:
+  ```sh
+  py main.py
+  ```
+  Do việc tạo câu hỏi mất khá nhiều thời gian nên cần phải tách thành 2 lệnh chạy là để có thể kiển tra nội dung file đọc được từ pdf đã ổn hay không, nếu thất bại có thể thực hiện đọc lại mà chưa tạo câu hỏi.
+  
+* Kết quả sẽ được lưu trong file <i> similar_question.txt </i>
 
