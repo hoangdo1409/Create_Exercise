@@ -1,228 +1,40 @@
-Câu 1. Phát biểu nào sau đây là phù hợp nhất về khái niệm bit?
-
-A. Chính chữ số 1.
-
-B. Một số có 1 chữ số.
-
-C. Đơn vị đo khối lượng kiến thức.
-
-D. Đơn vị đo lượng thông tin.
-
-Hướng dẫn giải
-Đáp án đúng là: D
-
-Đơn vị đo lượng thông tin cơ bản là bit. Ngoài ra còn có các đơn vị đo thông tin khác như: B, KB, MB, GB, TB, PB.
-
-Câu 2. Mã hoá thông tin có mục đích gì?
-
-A. Để thay đổi lượng thông tin.
-
-B. Để chuyển thông tin về dạng câu lệnh của ngôn ngữ máy.
-
-C. Làm cho thông tin phù hợp với dữ liệu trong máy.
-
-D. Cả A, B, C đều đúng.
-
-Hướng dẫn giải
-Đáp án đúng là: D
-
-Muốn máy tính hiểu được những thông tin đưa vào máy con người cần phải mã hóa thông tin dưới dạng các câu lệnh của ngôn ngữ máy làm cho thông tin phù hợp với dữ liệu trong máy và thay đổi lượng thông tin đó.
-
-Câu 3. Đơn vị đo lượng thông tin cơ sở là:
-
-A. Bit.
-
-B. GHz.
-
-C. GB.
-
-D. Byte.
-
-Hướng dẫn giải
-Đáp án đúng là: A
-
-Đơn vị đo lượng thông tin cơ bản là bit. Ngoài ra còn có các đơn vị đo thông tin khác như: B, KB, MB, GB, TB, PB.
-
-Câu 4. Bản chất quá trình mã hóa thông tin?
-
-A. Chuyển dãy hệ nhị phân về hệ đếm khác.
-
-B. Đưa thông tin vào máy tính.
-
-C. Chuyển thông tin về bit nhị phân.
-
-D. Nhận dạng thông tin.
-
-Hướng dẫn giải
-Đáp án đúng là: B
-
-Mã hoá thông tin là quá trình đưa thông tin vào máy tính để lưu trữ, xử lí được thông tin, thông tin phải biến đổi thành dãy bit.
-
-Câu 5. Chọn phát biểu đúng trong các câu sau:
-
-A. Dữ liệu là thông tin.
-
-B. RAM là bộ nhớ ngoài.
-
-C. Đĩa mềm là bộ nhớ trong.
-
-D. Một byte có 8 bits.
-
-Hướng dẫn giải
-Đáp án đúng là: D
-
-- Bộ nhớ trong gồm RAM và ROM → loại B.
-
-- Bộ nhớ ngoài gồm: đĩa cứng, đĩa mềm, đĩa CD, thiết bị nhớ flash… → loại C.
-
-- Dữ liệu là thông tin được mã hóa trong máy tính → loại A.
-
-Câu 6. Thông tin khi đưa vào máy tính, chúng đều được biến đổi thành dạng chung đó là:
-
-A. Văn bản.
-
-B. Âm thanh.
-
-C. Hình ảnh.
-
-D. Dãy bit.
-
-Hướng dẫn giải
-Đáp án đúng là: D
-
-Thông tin khi đưa vào máy tính, chúng đều được biến đổi thành dạng chung là các dãy bit để máy tính có thể nhận biết và xử lí được. Máy tính truy cập tới bộ nhớ theo từng nhóm bit.
-
-Câu 7. Quá trình xử lí thông tin gồm các bước nào?
-
-A. Tiếp nhận dữ liệu, xử lí dữ liệu, đưa ra kết quả.
-
-B. Tiếp nhận thông tin, xử lí thông tin, đưa ra kết quả.
-
-C. Tiếp nhận thông tin, chuyển thành dữ liệu, tính toán dữ liệu, đưa ra kết quả.
-
-D. Cả ba đáp án đều sai.
-
-Hướng dẫn giải
-Đáp án đúng là: A
-
-Trong tin học, dữ liệu là thông tin được đưa vào máy tính để máy tính có thể nhận biết và xử lí được. Trong máy tính, xử lí thông tin chính là xử lí dữ liệu. Quá trình xử lí thông tin gồm ba bước: tiếp nhận dữ liệu, xử lí dữ liệu, đưa ra kết quả. 
-
-Câu 8. Thông tin là gì?
-
-A. Các văn bản và số liệu.
-
-B. Tất cả những gì mang lại cho chúng ta hiểu biết.
-
-C. Văn bản, hình ảnh, âm thanh.
-
-D. Hình ảnh, âm thanh.
-
-Hướng dẫn giải
-Đáp án đúng là: B
-
-Thông tin là tất cả những gì mang lại cho chúng ta hiểu biết, thông tin gắn với quá trình nhận thức. 
-
-Câu 9. Chọn câu đúng trong các câu sau:
-
-A. 1MB = 1024KB.
-
-B. 1PB = 1024 GB.
-
-C. 1ZB = 1024PB.
-
-D. 1Bit = 1024B.
-
-Hướng dẫn giải
-Đáp án đúng là: A
-
-1MB = 210KB =1024KB
-
-Câu 10. Phát biểu nào sau đây là sai khi nói về quan hệ giữa thông tin và dữ liệu?
-
-A. Dữ liệu là thông tin đã được đưa vào máy tính.
-
-B. Thông tin là ý nghĩa của dữ liệu.
-
-C. Thông tin và dữ liệu có tính độc lập tương đối.
-
-D. Thông tin không có tính toàn vẹn.
-
-Hướng dẫn giải
-Đáp án đúng là: D
-
-Thông tin có tính toàn vẹn. Dữ liệu không đầy đủ có thể làm thông tin sai lệch, thậm chí không xác định được.
-
-Câu 11. 1 byte có thể biểu diễn ở bao nhiêu trạng thái khác nhau:
-
-A. 65536.
-
-B. 256.
-
-C. 255.
-
-D. 8.
-
-Hướng dẫn giải
-Đáp án đúng là: B
-
-1 byte = 8 bit. Vậy 1 byte có thể biểu diễn các trạng thái khác nhau là 28 = 256 trạng thái.
-
-Câu 12. Chọn câu đúng trong các câu dưới đây?
-
-A. Dữ liệu là thông tin đã được đưa vào trong máy tính.
-
-B. CPU là vùng nhớ đóng vai trò trung gian giữa bộ nhớ và các thanh ghi.
-
-C. Đĩa cứng là bộ nhớ trong.
-
-D. 8 bytes = 1 bit.
-
-Hướng dẫn giải
-Đáp án đúng là: A
-
-Tất cả các thông tin từ bên ngoài đưa vào trong máy tính đều được gọi là dữ liệu.
-
-Câu 13. Hãy chọn phương án ghép đúng: Hệ đếm nhị phân được sử dụng phổ biến trong tin học vì…. 
-
-A. Dễ biến đổi thành dạng biểu diễn trong hệ đếm 10.
-
-B. Là số nguyên tố chẵn duy nhất.
-
-C. Một mạch điện có hai trạng thái (có điện/không có điện) có thể dùng để thể hiện tương ứng "1", "0".
-
-D. Dễ dùng.
-
-Hướng dẫn giải
-Đáp án đúng là: C
-
-Hệ nhị phân được chọn bởi vì nó khá dễ dàng khi phân biệt sự hiện diện hay vắng mặt của 1 tín hiệu điện tại 1 thời điểm nào đó. Điều này càng trở nên đáng giá khi máy tính phải xử lý hàng tỷ tỷ các tín hiệu này mỗi giây.
-
-Câu 14. Chọn phát biểu sai trong các câu sau:
-
-A. Máy tính xử lí đồng thời nhiều byte chứ không xử lí từng byte.
-
-B. Các bộ phận của máy tính nối với nhau bởi các dây dẫn gọi là các tuyến.
-
-C. Máy tính xử lí đồng thời một dãy bit chứ không xử lí từng bit.
-
-D. Modem là một thiết bị hỗ trợ cho cả việc đưa thông tin vào và lấy thông tin ra.
-
-Hướng dẫn giải
-Đáp án đúng là: A
-
-Trong quá trình xử lí dữ liệu, máy tính chỉ xử lí từng byte.
-
-Câu 15. Hãy chọn phương án ghép đúng: Mã hóa thông tin thành dữ liệu là quá trình…
-
-A. Chuyển thông tin bên ngoài thành thông tin bên trong máy tính.
-
-B. Chuyển thông tin về dạng mà máy tính có thể xử lí được.
-
-C. Chuyển thông tin về dạng mã ASCII.  
-
-D. Thay đổi hình thức biểu diễn để người khác không hiểu được.
-
-Hướng dẫn giải
-Đáp án đúng là: B
-
-Để máy tính có thể xử lí được thông tin thì cần phải có một quá trình, đó là mã hóa thông tin thành dữ liệu, mà dữ liệu này phải là loại dữ liệu máy tính có thể xử lí được.
+Câu 1: Chương trình khai thác thuộc địa lần thứ hai của thực dân Pháp đã dẫn tới sự xuất hiện của những giai cấp nào dưới đây? A. Nông dân, công nhân B. Tư sản, tiểu tư sản, công nhân C. Địa chủ, tư sản, tiểu tư sản D. Tư sản, tiểu tư sản
+Câu 2: Ngày 1-10-1949, nước Cộng hòa Nhân dân Trung Hoa ra đời là kết quả của: A. quá trình đàm phán giữa Mĩ và Liên Xô B. quá trình đấu tranh giải phóng dân tộc C. cuộc nội chiến Quốc Cộng lần 2 (1946-1949) D. quá trình nổi dậy của nhân dân Trung Quốc
+Câu 3: Đặc đểm nổi bật của phong trào dân tộc, dân chủ ở Việt Nam giai đoạn 1919 – 1930 là: A. cuộc đấu tranh giành quyền cai trị ở Việt Nam giữa thực dân Pháp và vương triều Nguyễn diễn ra mạnh mẽ, quyết liệt B. sự phát triển mạnh mẽ về kinh tế, chính trị, xã hội dẫn đến sự phát triển mạnh mẽ của phong trào đấu tranh theo khuynh hướng cách mạng vô sản ở Việt Nam C. cuộc đấu tranh giành quyền lãnh đạo giữa khuynh hướng cách mạng vô sản và khuynh hướng cách mạng dân chủ tư sản D. sự phát triển mạnh mẽ của phong trào tư sản, tiểu tư sản từng bước khẳng định vai trò lãnh đạo của họ
+Câu 4: Nguyên nhân nào dưới đây làm cho nền kinh tế Mỹ, Nhật, Tây Âu bị suy thoái từ nửa sau những năm 70 của thế kỉ XX? A. Các nước đồng minh không có khả năng trả nợ cho Mĩ B. Tác động của cuộc khủng hoảng năng lượng thế giới C. Sự vươn lên của các nền kinh tế mới nổi D. Phong trào giải phóng dân tộc ở Á, Phi, Mĩ Latinh giành thắng lợi
+Câu 5: Sự kiện nào dưới đây có ảnh hưởng tích cực đến phong trào cách mạng Việt Nam đầu thế kỉ XX? A. Pháp bị thiệt hại nặng nề trong chiến tranh B. Trật tự Véc xai – Oa sin tơn thiết lập C. Chiến tranh thế giới thứ nhất kết thúc D. Cách mạng tháng Mười Nga 1917 thành công
+Câu 6: Từ năm 1991 đến năm 2000, các nước lớn điều chỉnh quan hệ theo hướng đối thoại, thỏa hiệp, tránh xung đột trực tiếp chủ yếu vì: A. cần tập trung vào cuộc đấu tranh chống chế độ phân biệt chủng tộc B. hợp tác chính trị - quân sự trở thành nội dung căn bản trong quan hệ quốc tế C. muốn tạo môi trường quốc tế thuận lợi để vươn lên xác lập vị thế D. muốn tiến tới giải thể tất cả các tổ chức quân sự trên thế giới
+Câu 7: Trong lúc Nhật đảo chính Pháp, Ban thường vụ Trung ương Đảng ra chỉ thị nào dưới đây? A. Chuẩn bị khởi nghĩa giành chính quyền B. Đánh đuổi phát xít Nhật C. Đánh đuổi Pháp – Nhật D. Nhật - Pháp bắn nhau và hành động của chúng ta
+Câu 8: Với chủ trương giương cao ngọn cờ dân tộc, tạm gác việc thực hiện nhiệm vụ cách mạng ruộng đất trong giai đoạn 1939 - 1945, Đảng Cộng sản Đông Dương đã A. bắt đầu nhận ra khả năng chống đế quốc của trung và tiểu địa chủ B. đáp ứng đúng nguyện vọng số một của giai cấp nông dân Việt Nam C. tập trung giải quyết những mâu thuẫn cơ bản của xã hội Việt Nam D. thực hiện đúng chủ trương của Luận cương chính trị tháng 10 - 1930
+Câu 9: Công lao to lớn đầu tiên của Nguyễn Ái Quốc đối với cách mạng Việt Nam trong những năm 1920 – 1930 là: A. chuẩn bị về tổ chức cho sự ra đời của chính Đảng vô sản ở Việt Nam B. tìm ra con đường cứu nước mới cho dân tộc Việt Nam C. soạn thảo Cương lĩnh chính trị đúng đắn cho Đảng Cộng sản Việt Nam D. chuẩn bị về tư tưởng, chính trị cho sự ra đời của Đảng Cộng sản Việt Nam                                                 Trang 2/7 - Mã đề thi 896
+Câu 10: Điểm nào dưới đây là sự khác biệt giữa phong trào giải phóng dân tộc ở Châu Á, Châu Phi với khu vực Mĩ Latinh: A. Châu Á, Châu Phi đấu tranh để giải phóng dân tộc, khu vực Mĩ Latinh đấu tranh để giải phóng giai cấp B. Châu Á, Châu Phi đấu tranh chống lại bọn đế quốc thực dân cũ, khu vực Mĩ Latinh đấu tranh chống chủ nghĩa thực dân mới C. Châu Phi và Châu Á đấu tranh bằng vũ trang, khu vực Mĩ Latinh đấu tranh ôn hòa D. Phong trào giải phóng dân tộc ở Châu Á, Châu Phi làm hệ thống thuộc địa của chủ nghĩa thực dân lung lay tận gốc, khu vực Mĩ Latinh chưa làm được điều đó
+Câu 11: So với cách mạng tháng Mười Nga, lực lượng cách mạng trong Cương lĩnh chính trị của Đảng Cộng sản Việt Nam (2/1930) có điểm gì khác biệt? A. Giai cấp công nhân là lực lượng nắm vai trò lãnh đạo B. Giai cấp công nhân và nông dân là động lực chính của cách mạng C. Xác định giai cấp tư sản, tiểu tư sản là đối tượng của cách mạng D. Tư sản, tiểu tư sản, trung tiểu địa chủ cũng là lực lượng tham gia
+Câu 12: Tận dụng thời cơ Nhật đầu hàng Đồng minh (8 - 1945), những nước nào dưới đây đã giành được độc lập vào năm 1945? A. Việt Nam, Lào, Mianma B. Inđônêxia, Việt Nam, Lào C. Việt Nam, Lào, Camphuchia D. Philippin, Việt Nam, Lào
+Câu 13: Tính chất triệt để của phong trào cách mạng 1930 – 1931 được biểu hiện ở: A. không ảo tưởng vào kẻ thù dân tộc và giai cấp B. lần đầu tiên có sự lãnh đạo của một chính Đảng C. hình thức đấu tranh phong phú và quyết liệt D. diễn ra trên quy mô rộng lớn chưa từng thấy
+Câu 14: Cho các sự kiện: 1. Việt Nam và Mĩ bình thường quan hệ; 2. Việt Nam trở thành thành viên thứ 149 của Liên hợp quốc; 3. Việt Nam được bầu làm Ủy viên không thường trực Hội đồng Bảo an Liên hợp quốc.  Hãy sắp xếp các sự kiện trên theo trình tự thời gian. A. 2, 1, 3 B. 3, 2, 1. C. 1, 2, 3. D. 1, 3, 2
+Câu 15: Nguyên nhân sâu xa của cuộc cách mạng khoa học - công nghệ nửa sau thế kỉ XX là do A. bùng nổ dân số, cạn kiệt nguồn tài nguyên thiên nhiên. B. yêu cầu của việc chạy đua vũ trang trong thời kì chiến tranh lạnh. C. những đòi hỏi của cuộc sống, của sản xuất D. kế thừa những thành tựu của cuộc cách mạng công nghiệp ở thế kỉ XVIII-XIX.
+Câu 16: Chủ trương giải quyết vấn đề dân tộc của Đảng Cộng sản Đông Dương tại Hội nghị tháng 5-1941 có gì khác so với Hội nghị tháng 11-1939? A. Giương cao ngọn cờ giải phóng dân tộc cho toàn Đông Dương B. Vấn đề giải phóng dân tộc là mục tiêu số 1 của cách mạng C. Đẩy mạnh đấu tranh vũ trang tiến tới khởi nghĩa giành chính quyền D. Đặt vấn đề giải phóng dân tộc trong phạm vi từng nước
+Câu 17: Hội nghị trung ương Đảng 11/1939 do đồng chí Tổng bí thư Nguyễn Văn Cừ chủ trì đã đánh dấu sự chuyển hướng đấu tranh đúng đắn của Đảng vì: A. giải quyết vấn đề ruộng đất cho nông dân B. xác định kẻ thù chủ yếu, trước mắt là phát xít Nhật C. giương cao ngọn cờ giải phóng dân tộc D. đặt vấn đề giải phóng dân tộc cho Việt Nam
+Câu 18: Một trong những biểu hiện của xu thế toàn cầu hóa? A. Sự phát triển và tác động to lớn của các công ty xuyên quốc gia B. Hợp tác mạnh trên các lĩnh vực: chính trị, văn hóa, xã hội C. Đẩy mạnh phát triển kinh tế trên cơ sở duy trì hòa bình, an ninh thế giới D. Quá trình tăng lên mạnh mẽ của lực lượng sản xuất
+Câu 19: Nguyên nhân nào là cơ bản nhất, quyết định sự bùng nổ và phát triển của phong trào cách mạng 1930 - 1931? A. Ảnh hưởng của cuộc khủng hoảng kinh tế 1929 – 1933 B. Đảng Cộng sản Việt Nam ra đời kịp thời lãnh đạo phong trào cách mạng                                                 Trang 3/7 - Mã đề thi 896 C. Thực dân Pháp tiến hành khủng bố trắng sau cuộc khới nghĩa Yên Bái D. Địa chủ phong kiến câu kết với Pháp đàn áp, bóc lột nhân dân
+Câu 20: Từ nửa sau những năm 70 của thế kỷ XX, Nhật Bản thực hiện chính sách đối ngoại trở về châu Á dựa trên cơ sở nào? A. Tiềm lực kinh tế - tài chính hùng hậu B. Nền kinh tế đứng đầu thế giới C. Lực lượng quân đội phát triển nhanh D. Mỹ bắt đầu bảo trợ về vấn đề hạt nhân
+Câu 21: Nhiệm vụ hàng đầu của cách mạng Việt Nam đầu thế kỉ XX là: A. chống phong kiến, giành ruộng đất cho dân cày B. chống Pháp và phong kiến, giành quyền tự trị C. xây dựng và bảo vệ Tổ quốc xã hội chủ nghĩa D. chống Pháp và tay sai, giành độc lập dân tộc
+Câu 22: Hội Việt Nam Cách mạng Thanh niên và Việt Nam quốc dân đảng đều là: A. các tổ chức yêu nước cách mạng B. các tổ chức yêu nước theo khuynh hướng tư sản C. các tổ chức chính trị theo khuynh hướng vô sản D. tiền thân của Đảng cộng sản Việt Nam
+Câu 23: Sự kiện nào đánh dấu phong trào công nhân Việt Nam bước đầu chuyển từ đấu tranh tự phát sang đấu tranh tự giác? A. Cuộc bãi công của thợ máy xưởng Ba Son B. Xây dựng và bảo vệ Tổ quốc xã hội chủ nghĩa C. Cuộc đấu tranh của công nhân Bắc Kì D. Đảng Cộng sản Việt Nam được thành lập
+Câu 24: Trong giai đoạn 1939 – 1945, Đảng Cộng sản Đông Dương đã khắc phục được một trong những hạn chế của Luận cương chính trị (10/1930) qua chủ trương: A. thành lập chính phủ công nông binh B. sử dụng phương pháp bạo lực cách mạng C. tập hợp lực lượng toàn dân tộc chống đế quốc D. xác định động lực cách mạng là công – nông
+Câu 25: Biến đổi quan trọng nhất của các nước châu Á sau chiến tranh thế giới thứ hai là gì? A. Đã giành được độc lập C. Trở thành 1 trong 3 trung tâm kinh tế, tài chính thế giới B. Là thành viên của tổ chức ASEAN D. Một số nước trở thành nước công nghiệp mới (NIC)
+Câu 26: Tham vọng thiết lập “Trật tự thế giới đơn cực” của Mĩ thời kì sau chién tranh lạnh dựa trên cơ sở chủ yếu nào? A. Tình hình thế giới thuận lợi, các nước đồng minh của Mĩ ủng hộ B. Các nước thế giới thứ ba ủng hộ Mĩ, dựa vào Mĩ để phát triển C. Mĩ là nước đứng đầu thế giới về kinh tế, quân sự, khoa học kĩ thuật D. Chủ nghĩa xã hội ở Liên Xô sụp đổ, Mĩ không còn đối thủ lớn
+Câu 27: Điểm nổi bật của nghệ thuật khởi nghĩa vũ trang trong cách mạng tháng Tám năm 1945 ở Việt Nam là sự kết hợp: A. lực lượng chính trị và lực lượng vũ trang B. ba thứ quân trong lực lượng vũ trang C. khởi nghĩa từng phần với chiến tranh cách mạng D. khởi nghĩa và tiến công quân sự ở khắp nơi
+Câu 28: Vai trò lớn nhất của Liên hợp quốc hiện nay là: A. là trung tâm giải quyết những mâu thuẫn vê dân tộc, sắc tộc trên thế giới B. góp phần gìn giữ hòa bình an ninh và giải quyết các vấn đề mang tính quốc tế C. là trung gian giải quyết các tranh chấp trên lĩnh vực kinh tế D. thúc đẩy quan hệ hợp tác kinh tế, văn hóa giữa các quốc gia, khu vực
+Câu 29: Điểm sáng tạo của Nguyễn Ái Quốc trong quá trình vận động thành lập Đảng Cộng sản Việt Nam là A. thành lập tổ chức Cộng sản đoàn B. thành lập Hội Việt Nam Cách mạng Thanh niên C. thành lập tổ chức Tâm tâm xã D. thành lập Việt Nam Quốc dân đảng
+Câu 30: Sự khác nhau cơ bản giữa Cương lĩnh chính trị đầu tiên và Luận cương chính trị của Đảng năm 1930 là xác định: A. lãnh đạo, mối quan hệ của cách mạng B. đường lối, nhiệm vụ cách mạng C. lực lượng, lãnh đạo cách mạng D. nhiệm vụ, lực lượng cách mạng
+Câu 31: Phong trào dân chủ 1936 - 1939 ở Việt Nam có gì mới so với phong trào cách mạng 1930 -1931? A. Kết hợp hình thức đấu tranh công khai, hợp pháp với bí mật, bất hợp pháp B. Giai cấp công nhân và nông dân đoàn kết đấu tranh mạnh mẽ C. Đảng Cộng sản Đông Dương đề ra chủ trương cụ thể cho hoàn cảnh mới D. Là cuộc diễn tập cho Tổng khởi nghĩa tháng Tám 1945                                                 Trang 4/7 - Mã đề thi 896
+Câu 32: Khẩu hiệu đấu tranh mà Đảng ta vận dụng trong phong trào cách mạng 1930 -1931 là: A. “tịch thu ruộng đất của đế quốc chia cho dân cày nghèo” C. “tự do dân chủ” và “cơm áo hòa bình” B. “độc lập dân tộc” và “ruộng đất dân cày” D. “chống đế quốc”, “chống phát xít”
+Câu 33: Tư tưởng cốt lõi thể hiện trong Cương lĩnh chính trị đầu tiên của Đảng Cộng sản Việt Nam (đầu năm 1930) do Nguyễn Ái Quốc soạn thảo là: A. đoàn kết cách mạng thế giới B. độc lập và tự do C. tự do và dân chủ D. ruộng đất cho dân cày
+Câu 34: Trong cuộc khai thác thuộc địa lần 2 ở Đông Dương (1919-1929), thực dân Pháp đầu tư vốn nhiều nhất vào ngành kinh tế nào? A. Thủ công nghiệp B. Công nghiệp C. Nông nghiệp D. Thương nghiệp
+Câu 35: Việt Nam có thể rút ra kinh nghiệm gì từ sự phát triển kinh tế của Mĩ, Nhật và Tây Âu sau Chiến tranh thế giới thứ hai để đẩy mạnh sự nghiệp công nghiệp hóa, hiện đại hóa đất nước? A. Tăng cường đẩy mạnh hợp tác với các nước khác B. Ứng dụng các thành tựu khoa học – kĩ thuật C. Khai thác và sử dụng hợp lí nguồn tài nguyên D. Nâng cao trình độ tập trung vốn và lao động
+Câu 36: Trong thời kỳ Chiến tranh lạnh, quốc gia nào ở châu Âu trở thành tâm điểm đối đầu giữa hai cực Xô - Mỹ? A. Anh B. Hy Lạp C. Pháp D. Đức
+Câu 37: Sự kiện nào đánh dấu chủ nghĩa xã hội đã vượt ra khỏi phạm vi một nước (Liên Xô) và bước đầu trở thành hệ thống thế giới: A. Sự ra đời nước Cộng hòa dân chủ nhân dân Triều Tiên B. Sự ra đời nước Cộng hòa xã hội chủ nghĩa Việt Nam C. Sự ra đời nước Cộng hòa nhân dân Trung Hoa D. Sự ra đời của các nước dân chủ nhân dân Đông Âu
+Câu 38: Hội nghị nào sau đây của Đảng Cộng sản Đông Dương không trực tiếp xác định nhiệm vụ cho cách mạng Việt Nam là chống chủ nghĩa phát xít? A. Hội nghị Ban Chấp hành Trung ương Đảng Cộng sản Đông Dương tháng 5 - 1941 B. Hội nghị Ban Thường vụ Trung ương Đảng Cộng sản Đông Dương tháng 3 - 1945 C. Hội nghị Ban Chấp hành Trung ương Đảng Cộng sản Đông Dương tháng 11 - 1939 D. Hội nghị Ban Chấp hành Trung ương Đảng Cộng sản Đông Dương tháng 7 - 1936
+Câu 39: Trong quá trình thực hiện chiến lược toàn cầu từ sau Chiến tranh thế giới thứ hai đến năm 2000, Mỹ đạt được kết quả nào dưới đây? A. Chi phối được một số nước tư bản đồng minh phụ thuộc vào Mỹ B. Duy trì vị trí cường quốc số một thế giới trên mọi lĩnh vực C. Duy trì sự tồn tại và hoạt động của tất cả các tổ chức quân sự D. Trực tiếp xóa bỏ hoàn toàn chế độ phân biệt chủng tộc
+Câu 40: Ba tư tưởng sau đây được trình bày trong tác phẩm nào của Nguyễn Ái Quốc: 1. Cách mạng là sự nghiệp của quần chúng 2. Cách mạng là phải do Đảng theo chủ nghĩa Mác Lênin lãnh đạo 3. Cách mạng Việt Nam phải gắn bó và đoàn kết với cách mạng thế giới A. Tạp chí Thư tín quốc tế B. Bản án chế độ thực dân Pháp C. Đường Kách mệnh---------------------------------- D. Đời sống thợ thuyền  ----------------------------------------------- ----------- HẾT ----------  (Thí sinh không được sử dụng tài liệu)

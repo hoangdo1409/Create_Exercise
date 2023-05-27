@@ -8,7 +8,6 @@ max_tokens = os.getenv('MAX_TOKEN')
 quest_path = 'question.txt'
 similar_quest_path = 'similar_question.txt'
 
-
 def convert_list_to_str(list_question: list) -> str:
     str_formated = ""
     for j in range(0, len(list_question)):
@@ -44,6 +43,12 @@ def get_question_sample(path: str) -> list:
 
     return list_quest_ans 
 
+def read_file_lines(file_path):
+    lines = []
+    with open(file_path, 'r', encoding= 'utf-8') as file:
+        lines = file.readlines()
+    return lines
+
 def generate_questions(question_sample: str, request: str, api_key=api_key, max_tokens=max_tokens):
     openai.api_key = (api_key)
     prompt = question_sample + '\n' + request
@@ -59,14 +64,18 @@ def generate_questions(question_sample: str, request: str, api_key=api_key, max_
     )    
     return response.choices[0].text
 
-
-
 file_similar = open(similar_quest_path, 'w')
 
-list_quest_ans = get_question_sample("question.txt")
-
+# list_quest_ans = get_question_sample("question.txt")
+list_quest_ans = read_file_lines('question.txt')
 result = ""
-request = "Create a list of 5 questions and 4 answers with each question, each with the same topic as the questions above."
+# request = "Create a list of 5 questions and 4 answers with each question, each with the same topic as the questions above."
+request = """Create a list of 5 questions and 4 answers with each question, each on the same topic as the questions above, of the form:
+ Question: 
+A.  
+B. 
+C.  
+D. """
 for i in range(0, len(list_quest_ans)):
     result = result + generate_questions(list_quest_ans[i], request)
 
