@@ -18,31 +18,6 @@ def save_to_txt(text: str, path_file: str) -> None:
     with open(path_file, 'w', encoding='utf-8', errors='ignore') as txt_file:
         txt_file.write(text)
 
-def get_question_sample(path: str) -> list:
-
-    list_quest_ans = []
-    with open(path, "r", encoding="utf-8") as q_file:
-        content = q_file.read()
-        qst = 1
-        last_index = 0
-        while True: 
-            last_index = content.find(f"Câu {qst}.", last_index)
-            if last_index  == -1:
-                break
-
-            end_index = content.find('\n', last_index)
-            question = content[last_index:end_index]
-
-            four_ans = ""
-            for i in "ABCD":
-                last_index = content.find(f"{i}.", last_index)
-                end_index = content.find('\n', last_index)
-                four_ans = four_ans + content[last_index:end_index] + "\n"
-            qst += 1
-            list_quest_ans.append(question + "\n" + four_ans)
-
-    return list_quest_ans 
-
 def read_file_lines(file_path):
     lines = []
     with open(file_path, 'r', encoding= 'utf-8') as file:
@@ -67,7 +42,6 @@ def generate_questions(question_sample: str, request: str, api_key=api_key, max_
 def main():
     file_similar = open(similar_quest_path, 'w')
 
-    # list_quest_ans = get_question_sample("question.txt")
     list_quest_ans = read_file_lines('question.txt')
     result = ""
     # request = "Create a list of 5 questions and 4 answers with each question, each with the same topic as the questions above."
