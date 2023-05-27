@@ -64,21 +64,25 @@ def generate_questions(question_sample: str, request: str, api_key=api_key, max_
     )    
     return response.choices[0].text
 
-file_similar = open(similar_quest_path, 'w')
+def main():
+    file_similar = open(similar_quest_path, 'w')
 
-# list_quest_ans = get_question_sample("question.txt")
-list_quest_ans = read_file_lines('question.txt')
-result = ""
-# request = "Create a list of 5 questions and 4 answers with each question, each with the same topic as the questions above."
-request = """Create a list of 5 questions and 4 answers with each question, each on the same topic as the questions above, of the form:
- Question: 
-A.  
-B. 
-C.  
-D. """
-for i in range(0, len(list_quest_ans)):
-    result = result + generate_questions(list_quest_ans[i], request)
+    # list_quest_ans = get_question_sample("question.txt")
+    list_quest_ans = read_file_lines('question.txt')
+    result = ""
+    # request = "Create a list of 5 questions and 4 answers with each question, each with the same topic as the questions above."
+    request = """Create a list of 5 questions and 4 answers with each question, each on the same topic as the questions above, of the form:
+    Question: 
+    A.  
+    B. 
+    C.  
+    D. """
+    for i in range(0, len(list_quest_ans)):
+        result = result + generate_questions(list_quest_ans[i], request)
 
-save_to_txt(result, similar_quest_path)
+    save_to_txt(result, similar_quest_path)
 
-file_similar.close()
+    file_similar.close()
+
+if __name__ == '__main__':
+    main()
