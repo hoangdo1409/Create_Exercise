@@ -42,7 +42,7 @@ def print_to_txt(text, path_file) -> None:
 
 def main():
     load_dotenv()
-    pdf_path = PDF_PATH
+    pdf_path = 'exam_math.pdf'
     txt_path = 'question.txt'
 
     pattern_pdf = r"(Câu \d+:.+?)(?=(Câu \d+:)|$)"

@@ -1,3 +1,5 @@
 python-dotenv==1.0.0
 pdfminer.six
 openai
+# pix2tex[gui]
+# -U pix2tex[api]
