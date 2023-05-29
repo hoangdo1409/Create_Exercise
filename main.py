@@ -76,7 +76,11 @@ def main():
     result = ""
     # request = "Create a list of 5 questions and 4 answers with each question, each with the same topic as the questions above."
     request = """Create a list of 5 questions and 4 answers with each question, each on the same topic as the questions above, of the form:
-    Question: |Answer A| Answer B|Answer C|Answer D"""
+    Question: 
+    A.  
+    B. 
+    C.  
+    D."""
     for i in range(0, len(list_quest_ans)):
         result = result + generate_questions(list_quest_ans[i], request)
 
