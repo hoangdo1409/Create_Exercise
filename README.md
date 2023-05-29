@@ -65,12 +65,11 @@ git clone https://github.com/hoangdo1409/Create_Exercise.git
 API_KEY="api_key"
 MAX_TOKENS=1600
 ENGINE="davinci"
-PDF_PATH='exam_history.pdf'
 ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-Dự án này trước tiên cần đọc dữ liệu câu hỏi từ 1 file pdf, vậy nên bạn cần thêm 1 file pdf muốn sử dụng làm cơ sở ddeer tạo thêm các câu hỏi khác vào dự án. Hiện tại, đang có 1 file mặc định là exam_history.pdf được đặt sẵn để có thể chạy thử nghiệm. Hoặc bạn có thể thêm 1 file pdf khác và thay đổi giá trị biến ```PDF_PATH``` trong file <i>.env</i>.
+Dự án này trước tiên cần đọc dữ liệu câu hỏi từ 1 file pdf, vậy nên bạn cần thêm 1 file pdf muốn sử dụng làm cơ sở ddeer tạo thêm các câu hỏi khác vào dự án. Hiện tại, đang có 1 file mặc định là exam_history.pdf được đặt sẵn để có thể chạy thử nghiệm. Hoặc bạn có thể thêm 1 file pdf khác và thay đổi giá trị biến ```python pdf_path``` trong file <i>createTxt.py</i>.
 
 * Để đọc toàn bộ nội dung câu hỏi từ file pdf, chạy lệnh sau:
   ```sh
@@ -86,3 +85,14 @@ Dự án này trước tiên cần đọc dữ liệu câu hỏi từ 1 file pdf
   
 * Kết quả sẽ được lưu trong file <i> similar_question.txt </i>
 
+Phần dự án này hiện tại đang chỉ đọc được những file đề thi có dạng text thông thường, đối với những đề thi toán học, chứa những công thức toán thì hiện tại chưa thể thực hiện.
+
+## Upgrade
+Hiện tại, dự án này muốn nâng cấp lên để có thể đọc và xử lý những đề thi chứa nhiều công thức toán học phức tạp.
+* File <i> readPdf_with_latex.py </i> hiện đang có thể đọc được 1 công thức từ một bức ảnh và trả về kết quả vào file result.html. 
+* Để thực hiện điều đó, hiện tại dự án đang sử dụng [pix2tex](https://github.com/lukas-blecher/LaTeX-OCR) để đọc công thức toán học từ 1 image và đưa giá trị đọc được vào API của OpenAI thực hiện format lại.
+  * Nếu muốn cài đặt và chạy được pix2tex, bạn cần có Python 3.7+ (64-bit) (tốt nhất nên lấy phiên bản mới nhất hiện tại của Python) và thực hiện tải xuống với câu lệnh: 
+```sh
+pip install pix2tex[gui]
+```
+* Do dạng file test thông thường không thể xem trực tiếp được các công thức toán học được viết lại dưới dạng latex nên ta cần sử dụng [MathJax](https://www.mathjax.org/) của js để xem. 
