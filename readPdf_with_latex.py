@@ -58,7 +58,7 @@ def main():
     </body>
     </html>
 
-    '''
+    ''' 
 
     # Tạo đối tượng Template từ template HTML
     template = Template(html_template)
@@ -76,3 +76,4 @@ if __name__ == '__main__':
     main()
 
 
+# Nhưng hiện tại thời hạn cũng sắp hết nên em nghĩ là mình không đủ thời gian để làm được tiếp nên em xin phép viết báo cáo để nộp thầy luôn ạ
