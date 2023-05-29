@@ -4,6 +4,9 @@ from jinja2 import Template
 from dotenv import load_dotenv
 import os, time
 import openai
+import os
+from pdf2image import convert_from_path
+import pytesseract
 
 load_dotenv()
 api_key = os.getenv('API_KEY')
@@ -25,18 +28,44 @@ def generate_questions(question_sample: str, request: str, api_key=api_key, max_
     return response.choices[0].text
 
 
+
+def pdf_to_latex(pdf_path):
+    images = convert_from_path(pdf_path, 500, poppler_path=r'C:\Program Files\poppler-0.68.0\bin')
+
+    temp_dir = "temp_images"
+    os.makedirs(temp_dir, exist_ok=True)
+
+    image_paths = []
+    for i, image in enumerate(images):
+        image_path = os.path.join(temp_dir, f"page_{i+1}.png")
+        image.save(image_path, "PNG")
+        image_paths.append(image_path)
+
+    text = ""
+    for image_path in image_paths:
+        text += pytesseract.image_to_string(image_path, lang="vie")
+
+    for image_path in image_paths:
+        os.remove(image_path)
+    os.rmdir(temp_dir)
+
+    latex_text = text.replace("&", "\&").replace("%", "\%")
+
+    return latex_text
+
+def save_to_txt(text: str, path_file: str) -> None:
+    with open(path_file, 'w', encoding='utf-8', errors='ignore') as txt_file:
+        txt_file.write(text)
+
+
 def main():
 
-    # Đường dẫn tới file ảnh
     image_path = 'math.png'
 
-    # Mở ảnh
     img = Image.open(image_path)
 
-    # Khởi tạo model LatexOCR
     model = LatexOCR()
 
-    # Nhận dạng công thức toán học từ ảnh
     result = ""
     request = """
     Reformat the above formula to the standard form of latex mathematical formula
@@ -44,7 +73,12 @@ def main():
 
     result = result + generate_questions(model(img), request)
 
-    # Template HTML
+    # pdf_path = "exam_math.pdf"
+
+    # latex_code = pdf_to_latex(pdf_path)
+
+    # result = latex_code
+
     html_template = '''
     <!DOCTYPE html>
     <html>
@@ -65,6 +99,7 @@ def main():
 
     # Render template và chèn giá trị của result vào
     rendered_html = template.render(result=result)
+    save_to_txt(result, 'data.txt')
 
     # Ghi kết quả vào file HTML
     with open('result.html', 'w', encoding='utf-8') as file:

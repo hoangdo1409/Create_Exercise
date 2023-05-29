@@ -31,7 +31,7 @@ def generate_questions(question_sample: str, request: str, api_key=api_key, max_
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt=prompt,
-        temperature=0.5,
+        temperature=0,
         max_tokens=3000,
         top_p=1,
         frequency_penalty=0,
@@ -75,12 +75,20 @@ def main():
     list_quest_ans = read_file_lines('question.txt')
     result = ""
     # request = "Create a list of 5 questions and 4 answers with each question, each with the same topic as the questions above."
-    request = """Create a list of 5 questions and 4 answers with each question, each on the same topic as the questions above, of the form:
-    Question: 
-    A.  
-    B. 
-    C.  
-    D."""
+    # request = """Create a list of 5 questions and 4 answers with each question, each on the same topic as the questions above, of the form:
+    # Question: 
+    # A.  
+    # B. 
+    # C.  
+    # D."""
+    request = """
+    Tạo một danh sách gồm 5 câu hỏi và 4 câu trả lời với mỗi câu hỏi, mỗi câu về cùng một chủ đề với các câu hỏi trên, có dạng:    
+    Câu :  {nội dung câu hỏi}
+    A.  {đáp án A} 
+    B.  {đáp án B} 
+    C.  {đáp án C}
+    D. {đáp án D} 
+    """
     for i in range(0, len(list_quest_ans)):
         result = result + generate_questions(list_quest_ans[i], request)
 
@@ -90,7 +98,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-    check()
+    # check()
 
 
 
