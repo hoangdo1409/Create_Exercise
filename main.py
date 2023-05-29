@@ -39,6 +39,36 @@ def generate_questions(question_sample: str, request: str, api_key=api_key, max_
     )    
     return response.choices[0].text
 
+def checked_with_api(question: str, request: str, api_key=api_key, max_tokens=max_tokens):
+
+    openai.api_key = (api_key)
+    prompt = question + '\n' + request
+
+    response = openai.Completion.create(
+        model="text-davinci-003",
+        prompt=prompt,
+        temperature=0,
+        max_tokens=3000,
+        top_p=1,
+        frequency_penalty=0,
+        presence_penalty=0
+    )
+    return response.choices[0].text
+
+
+def check():
+    file_similar = open(similar_quest_path, 'w')
+
+    list_quest_ans = read_file_lines(similar_quest_path)
+    result = ""
+    request = "Answer the question."
+    for i in range(0, len(list_quest_ans)):
+        result = result + generate_questions(list_quest_ans[i], request)
+
+    save_to_txt(result, 'check.txt')
+
+    file_similar.close()
+
 def main():
     file_similar = open(similar_quest_path, 'w')
 
@@ -46,11 +76,7 @@ def main():
     result = ""
     # request = "Create a list of 5 questions and 4 answers with each question, each with the same topic as the questions above."
     request = """Create a list of 5 questions and 4 answers with each question, each on the same topic as the questions above, of the form:
-    Question: 
-    A.  
-    B. 
-    C.  
-    D. """
+    Question: |Answer A| Answer B|Answer C|Answer D"""
     for i in range(0, len(list_quest_ans)):
         result = result + generate_questions(list_quest_ans[i], request)
 
@@ -60,6 +86,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+    check()
 
 
 
