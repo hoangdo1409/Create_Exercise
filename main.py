@@ -57,9 +57,9 @@ def checked_with_api(question: str, request: str, api_key=api_key, max_tokens=ma
 
 
 def check():
-    file_similar = open(similar_quest_path, 'w')
+    file_similar = open(quest_path, 'w')
 
-    list_quest_ans = read_file_lines(similar_quest_path)
+    list_quest_ans = read_file_lines(quest_path)
     result = ""
     request = "Answer the question."
     for i in range(0, len(list_quest_ans)):
